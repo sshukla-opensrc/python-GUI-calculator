@@ -249,7 +249,7 @@ answer = Label(window, text='', font='Helvetica 18 bold')
 answer.grid(row=2, column=0, columnspan=30)
 
 link1 = Label(window, text="Click here to see the source code", fg="blue", cursor="hand2")
-link1.grid(row=9, column=0)
+link1.grid(row=9, column=0, columnspan=2)
 link1.bind("<Button-1>", lambda e: callback("https://www.github.com/swastik-machine-learning/python-GUI-calculator"))
 
 # create number buttons
